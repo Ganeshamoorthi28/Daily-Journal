@@ -12,6 +12,8 @@ const app = express();
 
 let posts = [];
 
+const port = 8000 || process.env.PORT
+
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
