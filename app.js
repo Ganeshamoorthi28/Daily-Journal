@@ -63,6 +63,6 @@ app.get("/posts/:topic",function(req,res){
 
 
 
-app.listen(8000, function() {
+app.listen(port, function() {
   console.log("Server started on port 8000");
 });
