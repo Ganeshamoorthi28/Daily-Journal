@@ -12,7 +12,7 @@ const app = express();
 
 let posts = [];
 
-const port = 8000 || process.env.PORT
+const port = process.env.PORT || 8000;
 
 app.set('view engine', 'ejs');
 
